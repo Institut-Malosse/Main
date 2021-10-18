@@ -2,6 +2,6 @@ IM files from CSIA.
 
 Dev content : 
 
-  PyChoice : Lightweight python-based script to make choices in your life.
+  PyChoice : Lightweight python-based script to make choices of which OS you must install to your computer. Basically, a roulette script.
   
   Pysswd : Lightweight python-based password generator. (in dev)
