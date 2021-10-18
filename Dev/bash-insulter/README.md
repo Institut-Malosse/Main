@@ -31,7 +31,7 @@ noob@bender:~ $ sp aux
 
     sudo wget -O /etc/bash.command-not-found https://github.com/Institut-Malosse/Main/blob/main/Dev/bash-insulter/src/bash.command-not-found
 
-Bash : Then source the file automatically for new logins by adding the following to `/etc/bash.bashrc` or any of the other locations where you can configure your shell automatically during login:
+* Bash : Then source the file automatically for new logins by adding the following to `/etc/bash.bashrc` or any of the other locations where you can configure your shell automatically during login:
 ```
 if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
@@ -39,7 +39,7 @@ fi
 ```
 Login again and type some invalid commands for the effects to be visible.
 
-Zsh : You will have to add the script to `.zshrc` if you are using `zsh` :
+* Zsh : You will have to add the script to `.zshrc` if you are using `zsh` :
 
 ```
 if [ -f /etc/bash.command-not-found ]; then
