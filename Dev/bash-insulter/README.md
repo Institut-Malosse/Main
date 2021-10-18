@@ -39,7 +39,7 @@ fi
 ```
 Login again and type some invalid commands for the effects to be visible.
 
-* Zsh : You will have to add the script to `.zshrc` if you are using `zsh` :
+* Zsh : You will have to add the script to `.zshrc` at the end of the file if you are using `zsh` :
 
 ```
 if [ -f /etc/bash.command-not-found ]; then
