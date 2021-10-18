@@ -1,4 +1,4 @@
-# bash-insulter
+# bashi-insulter
 Randomly insults the user when typing wrong command.
 
 Change insults as needed :)
