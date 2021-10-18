@@ -4,4 +4,4 @@ Dev content :
 
   PyChoice : Lightweight python-based script to make choices in your life.
   
-  Pysswd : Lightweight python-based password generator.
+  Pysswd : Lightweight python-based password generator. (in dev)
