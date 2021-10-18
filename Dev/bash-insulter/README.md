@@ -3,6 +3,8 @@ Randomly insults the user when typing wrong command.
 
 Change insults as needed :)
 
+French insults support is currently in dev.
+
 ```bash
 noob@bender:~ $ sl
 
