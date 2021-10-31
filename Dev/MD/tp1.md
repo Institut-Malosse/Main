@@ -11,7 +11,7 @@ Ce document a été réalisé par Julien Lefranc et Fabien Malosse, les membres 
 La réalisation de cette exercice a été faite sous un délai de 4H (arrondie à la 1/2H).
 
 ## Difficultés rencontrées :
-**
+
 Problème avec **SystemD** qui recherche le réseau lors du démarrage de la machine (**OpenRC** c'est quand même mieux que **SystemD** ^^).
 
 ## Utilisateurs :
