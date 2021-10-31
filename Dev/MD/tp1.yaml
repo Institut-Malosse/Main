@@ -1,0 +1,34 @@
+administrateur:
+  identite: Julien Lefranc
+  login: jlefranc
+  mot de passe: juju
+machine:
+  ip: 172.16.110.105
+  fqdn: jl-berlin-csia.filiere.info
+utilisateurs:
+  - login: root
+    passwd: GentooIsFarSuperior
+  - login: csia
+    passwd: csia
+  - login: csiaweb
+    passwd: csiaweb
+  - login: csiadb
+    passwd: csiadb
+  - login: kgouny
+    passwd: kgouny
+services:
+installes:
+  - ssh
+  - Outils de compilation (build-essential)
+  - isc-dhcp-server
+  - snmpd
+  - ntp
+  - apache2
+  - mariadb-server
+  - perl
+  - python3
+scripts:
+  - path: /srv/bin/{mult.sh,revtxt.sh}
+compilation:
+  - sources_path: /root/sources/w3m
+    binary: /srv/bin/w3m-0.5.3

@@ -50,3 +50,7 @@ L'utilisateur **root** n'est pas autorisé à se connecter en ssh sur la machine
 
 Le logiciel compilé ainsi que les scripts ont été placés dans **/srv/bin**, qui a été déclaré dans le **PATH**.
 Les scipts ont également un lien symbolique pointant de /srv/bin à **/usr/bin**, permettant l'utilisation sans spécifier le .sh dans le terminal.
+
+## Liens annexes :
+
+Notre Github (où se trouvent tout nos scripts) : https://github.com/Institut-Malosse
