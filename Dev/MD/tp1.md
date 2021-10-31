@@ -45,3 +45,8 @@ Problème avec **SystemD** qui recherche le réseau lors du démarrage de la mac
 
 La connexion est effective en ssh via l'ip **172.16.110.105** avec le port **22**.
 L'utilisateur **root** n'est pas autorisé à se connecter en ssh sur la machine.
+
+## Applications et scripts :
+
+Le logiciel compilé ainsi que les scripts ont été placés dans **/srv/bin**, qui a été déclaré dans le **PATH**.
+Les scipts ont également un lien symbolique pointant de /srv/bin à **/usr/bin**, permettant l'utilisation sans spécifier le .sh dans le terminal.
