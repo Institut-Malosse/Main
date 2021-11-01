@@ -13,4 +13,4 @@ print(z)
 Bool = True
 print(Bool)
 plateformes_sociales = ["Facebook", "Instagram", "Snapchat", "Twitter", "OnlyFans"]
-
+print(plateformes_sociales[0])
