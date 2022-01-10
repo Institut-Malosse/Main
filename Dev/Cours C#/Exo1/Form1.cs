@@ -25,7 +25,7 @@ namespace Exo1
                 return;
             }
             //DateTime uneAutreDate = DateTime.Parse(TxtAutreDate.Text); // On déclare une variable date contenant 22/08/2010
-            if (DateTime.TryParse(TxtAutreDate.Text, out DateTime uneAutreDate))0
+            if (DateTime.TryParse(TxtAutreDate.Text, out DateTime uneAutreDate))
             { }
             else
             {
