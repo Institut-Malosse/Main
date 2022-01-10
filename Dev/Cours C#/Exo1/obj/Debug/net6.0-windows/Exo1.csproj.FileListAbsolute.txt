@@ -1,0 +1,17 @@
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\bin\Debug\net6.0-windows\Exo1.exe
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\bin\Debug\net6.0-windows\Exo1.deps.json
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\bin\Debug\net6.0-windows\Exo1.runtimeconfig.json
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\bin\Debug\net6.0-windows\Exo1.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\bin\Debug\net6.0-windows\ref\Exo1.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\bin\Debug\net6.0-windows\Exo1.pdb
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\Exo1.csproj.AssemblyReference.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\Exo1.Form1.resources
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\Exo1.csproj.GenerateResource.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\Exo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\Exo1.AssemblyInfoInputs.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\Exo1.AssemblyInfo.cs
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\Exo1.csproj.CoreCompileInputs.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\Exo1.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\ref\Exo1.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\Exo1.pdb
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Exo1\obj\Debug\net6.0-windows\Exo1.genruntimeconfig.cache
