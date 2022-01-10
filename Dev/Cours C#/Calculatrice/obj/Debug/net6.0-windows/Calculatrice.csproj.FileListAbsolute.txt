@@ -1,0 +1,17 @@
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.csproj.AssemblyReference.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.Form1.resources
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.csproj.GenerateResource.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.AssemblyInfoInputs.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.AssemblyInfo.cs
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.csproj.CoreCompileInputs.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\bin\Debug\net6.0-windows\Calculatrice.exe
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\bin\Debug\net6.0-windows\Calculatrice.deps.json
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\bin\Debug\net6.0-windows\Calculatrice.runtimeconfig.json
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\bin\Debug\net6.0-windows\Calculatrice.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\bin\Debug\net6.0-windows\ref\Calculatrice.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\bin\Debug\net6.0-windows\Calculatrice.pdb
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\ref\Calculatrice.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.pdb
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.genruntimeconfig.cache

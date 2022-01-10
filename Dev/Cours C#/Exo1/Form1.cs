@@ -15,7 +15,7 @@ namespace Exo1
             string prénom = TxtPrénom.Text; // On déclare une variable chaine contenant "Jean-Michel"
             if (string.IsNullOrEmpty(prénom))
             {
-                MessageBox.Show("Vous n'avez pas saisi de prénom !");
+                MessageBox.Show("Vous n'avez pas saisi de prénom !"); //Vérification du champ prénom. S'il est vide, affiche et message d'erreur.
                 return;
             }
             //DateTime dateDeNaissance = DateTime.Parse(TxtDateNaissance.Text); // On déclare une variable date contenant 20/07/1990
@@ -60,29 +60,7 @@ namespace Exo1
                 MessageBox.Show(résultat); // On affiche le résultat de l'algorithme dans une boite de message
             }
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
