@@ -17,17 +17,13 @@ namespace Exo1
                 return;
             }
             //DateTime dateDeNaissance = DateTime.Parse(TxtDateNaissance.Text); // On déclare une variable date contenant 20/07/1990
-            if (DateTime.TryParse(TxtDateNaissance.Text, out DateTime dateDeNaissance))
-            { }
-            else
+            if (!DateTime.TryParse(TxtDateNaissance.Text, out DateTime dateDeNaissance)) 
             {
                 MessageBox.Show("La date de naissance ne respecte pas le format local !");
                 return;
             }
             //DateTime uneAutreDate = DateTime.Parse(TxtAutreDate.Text); // On déclare une variable date contenant 22/08/2010
-            if (DateTime.TryParse(TxtAutreDate.Text, out DateTime uneAutreDate))
-            { }
-            else
+            if (!DateTime.TryParse(TxtAutreDate.Text, out DateTime uneAutreDate))
             {
                 MessageBox.Show("La date de comparaison ne respecte pas le format local !");
                 return;
