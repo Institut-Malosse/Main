@@ -9,11 +9,12 @@ namespace Exo1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string résultat = "(texte vide)"; // On déclare une variable chaine contenant "(texte vide)"
-            string prénom = "Jean-Michel"; // On déclare une variable chaine contenant "Jean-Michel"
-            DateTime dateDeNaissance = new DateTime(1990, 07, 20); // On déclare une variable date contenant 20/07/1990
-            DateTime uneAutreDate = new DateTime(2010, 08, 22); // On déclare une variable date contenant 22/08/2010
-
+            string résultat = "(texte vide)"; // On déclare un variable chaine contenant "(texte vide)"
+            string prénom = TxtPrénom.Text; // On déclare une variable chaine contenant "Jean-Michel"
+            DateTime dateDeNaissance = DateTime.Parse(textBox1.Text); // On déclare une variable date contenant 20/07/1990
+            DateTime uneAutreDate = DateTime.Parse(textBox2.Text); // On déclare une variable date contenant 22/08/2010
+            int age;
+            int i = 0;
             if (dateDeNaissance > uneAutreDate) // Si la date de naissance est supérieure à l'autre date
             {
                 // Oui : la date de naissance EST supérieure à l'autre date !
@@ -23,12 +24,14 @@ namespace Exo1
             else
             {
                 // Non : la date de naissance N'EST PAS supérieure à l'autre date !
-                for (int i = 0; i < 99; i++) // On démarre une boucle, avec une variable i, de type entier (itérateur)
+                while (true) // On démarre une boucle, avec une variable i, de type entier (itérateur)
                 {
-                    if (dateDeNaissance.AddYears(i) >= uneAutreDate) // Si la date de naissance + i année(s) est supérieure ou égale à l'autre date
+                    i += 1;
+                    if (dateDeNaissance.AddYears(i) > uneAutreDate) // Si la date de naissance + i année(s) est supérieure ou égale à l'autre date
                     {
                         // Oui : la date de naissance + i année(s) EST supérieure ou égale à l'autre date !
-                        résultat = prénom + " avait " + i.ToString() + " an(s) !"; // On indique l'age calculé (qui vaut la valeur de i)
+                        age = i - 1;
+                        résultat = prénom + " avait " + age.ToString() + " an(s) !"; // On indique l'age calculé (qui vaut la valeur de i)
                         if (dateDeNaissance.Month == uneAutreDate.Month && dateDeNaissance.Day == uneAutreDate.Day)
                         {
                             résultat = résultat + " Et c'était pile le jour de son anniversaire !";
@@ -36,11 +39,10 @@ namespace Exo1
                         break;
                     }
                 }
+
+                MessageBox.Show(résultat); // On affiche le résultat de l'algorithme dans une boite de message
             }
-
-            MessageBox.Show(résultat); // On affiche le résultat de l'algorithme dans une boite de message
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -51,5 +53,14 @@ namespace Exo1
 
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
