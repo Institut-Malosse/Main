@@ -6,6 +6,7 @@ namespace Calculatrice
         {
             InitializeComponent();
         }
+        
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -26,6 +27,10 @@ namespace Calculatrice
             else if (saisi_operateur == "x")
             {
                 résultat = (premierNombre * deuxiemeNombre);
+                if (checkBox1.Checked)
+                {
+                    résultat = Math.Round(résultat, 2);
+                }
                 résultat_finale = phrase1 + résultat;
                 MessageBox.Show(résultat_finale);
 
@@ -33,24 +38,40 @@ namespace Calculatrice
             else if (saisi_operateur == "+")
             {
                 résultat = (premierNombre + deuxiemeNombre);
+                if (checkBox1.Checked)
+                {
+                    résultat = Math.Round(résultat, 2);
+                }
                 résultat_finale = phrase1 + résultat;
                 MessageBox.Show(résultat_finale);
             }
             else if (saisi_operateur == "-")
             {
                 résultat = (premierNombre - deuxiemeNombre);
+                if (checkBox1.Checked)
+                {
+                    résultat = Math.Round(résultat, 2);
+                }
                 résultat_finale = phrase1 + résultat;
                 MessageBox.Show(résultat_finale);
             }
             else if (saisi_operateur == "/")
             {
                 résultat = (premierNombre / deuxiemeNombre);
+                if (checkBox1.Checked)
+                {
+                    résultat = Math.Round(résultat, 2);
+                }
                 résultat_finale = phrase1 + résultat;
                 MessageBox.Show(résultat_finale);
             }
             else if (saisi_operateur == "%")
             {
                 résultat = (premierNombre % deuxiemeNombre);
+                if (checkBox1.Checked)
+                {
+                    résultat = Math.Round(résultat, 2);
+                }
                 résultat_finale = phrase1 + résultat;
                 MessageBox.Show(résultat_finale);
             }
@@ -65,5 +86,12 @@ namespace Calculatrice
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
