@@ -34,8 +34,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.TxtPrénom = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TxtDateNaissance = new System.Windows.Forms.TextBox();
+            this.TxtAutreDate = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -94,27 +94,27 @@
             this.TxtPrénom.Size = new System.Drawing.Size(100, 23);
             this.TxtPrénom.TabIndex = 5;
             // 
-            // textBox1
+            // TxtDateNaissance
             // 
-            this.textBox1.Location = new System.Drawing.Point(118, 84);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 6;
+            this.TxtDateNaissance.Location = new System.Drawing.Point(118, 84);
+            this.TxtDateNaissance.Name = "TxtDateNaissance";
+            this.TxtDateNaissance.Size = new System.Drawing.Size(100, 23);
+            this.TxtDateNaissance.TabIndex = 6;
             // 
-            // textBox2
+            // TxtAutreDate
             // 
-            this.textBox2.Location = new System.Drawing.Point(111, 158);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 7;
+            this.TxtAutreDate.Location = new System.Drawing.Point(111, 158);
+            this.TxtAutreDate.Name = "TxtAutreDate";
+            this.TxtAutreDate.Size = new System.Drawing.Size(100, 23);
+            this.TxtAutreDate.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(347, 323);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtAutreDate);
+            this.Controls.Add(this.TxtDateNaissance);
             this.Controls.Add(this.TxtPrénom);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -137,7 +137,7 @@
         private Label label3;
         private Label label4;
         private TextBox TxtPrénom;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox TxtDateNaissance;
+        private TextBox TxtAutreDate;
     }
 }

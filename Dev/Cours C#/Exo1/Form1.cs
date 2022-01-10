@@ -11,8 +11,27 @@ namespace Exo1
         {
             string résultat = "(texte vide)"; // On déclare un variable chaine contenant "(texte vide)"
             string prénom = TxtPrénom.Text; // On déclare une variable chaine contenant "Jean-Michel"
-            DateTime dateDeNaissance = DateTime.Parse(textBox1.Text); // On déclare une variable date contenant 20/07/1990
-            DateTime uneAutreDate = DateTime.Parse(textBox2.Text); // On déclare une variable date contenant 22/08/2010
+            if (string.IsNullOrEmpty(prénom))
+            {
+                MessageBox.Show("Vous n'avez pas saisi de prénom !");
+                return;
+            }
+            //DateTime dateDeNaissance = DateTime.Parse(TxtDateNaissance.Text); // On déclare une variable date contenant 20/07/1990
+            if (DateTime.TryParse(TxtDateNaissance.Text, out DateTime dateDeNaissance))
+            {}
+            else
+            {
+                MessageBox.Show("La date de naissance ne respecte pas le format local !");
+                return;
+            }
+            //DateTime uneAutreDate = DateTime.Parse(TxtAutreDate.Text); // On déclare une variable date contenant 22/08/2010
+            if (DateTime.TryParse(TxtAutreDate.Text, out DateTime uneAutreDate))
+            {}
+            else
+            {
+                MessageBox.Show("La date de comparaison ne respecte pas le format local !");
+                return;
+            }
             int age;
             int i = 0;
             if (dateDeNaissance > uneAutreDate) // Si la date de naissance est supérieure à l'autre date
@@ -59,6 +78,11 @@ namespace Exo1
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
         {
 
         }
