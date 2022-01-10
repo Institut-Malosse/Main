@@ -40,5 +40,16 @@ namespace Exo1
 
             MessageBox.Show(résultat); // On affiche le résultat de l'algorithme dans une boite de message
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
