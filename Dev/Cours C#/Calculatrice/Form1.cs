@@ -11,7 +11,7 @@ namespace Calculatrice
         {
 
             decimal résultat = 0;
-            string saisi_operateur = textBox3.Text;
+            string saisi_operateur = comboBox1.Text;
             string phrase1 = "Le résultat est ";
             string résultat_finale = "";
             if (!Decimal.TryParse(textBox1.Text, out Decimal premierNombre))
@@ -92,6 +92,9 @@ namespace Calculatrice
 
         }
 
-       
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
