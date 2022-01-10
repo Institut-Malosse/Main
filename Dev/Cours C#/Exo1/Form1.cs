@@ -19,7 +19,7 @@ namespace Exo1
                 return;
             }
             //DateTime dateDeNaissance = DateTime.Parse(TxtDateNaissance.Text); // On déclare une variable date contenant 20/07/1990
-            if (!DateTime.TryParse(TxtDateNaissance.Text, out DateTime dateDeNaissance)) 
+            if (!DateTime.TryParse(TxtDateNaissance.Text, out DateTime dateDeNaissance))
             {
                 MessageBox.Show("La date de naissance ne respecte pas le format local !");
                 return;
