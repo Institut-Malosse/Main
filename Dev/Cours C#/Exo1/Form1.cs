@@ -5,6 +5,8 @@ namespace Exo1
         public Form1()
         {
             InitializeComponent();
+            TxtPrénom.Text = Environment.UserName;
+            TxtAutreDate.Text = DateTime.Today.ToString("dd/MM/yyyy");
         }
 
         private void button1_Click(object sender, EventArgs e)
