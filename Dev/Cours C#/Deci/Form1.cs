@@ -40,7 +40,7 @@ namespace Deci
             }
             else
             {
-                MessageBox.Show("Le nombre saisi n'est pas valide !"); // Affichage d'une erreur de saisie
+                MessageBox.Show("Le nombre saisi n'est pas une valeur valide !"); // Affichage d'une erreur de saisie
             }
         }
 
