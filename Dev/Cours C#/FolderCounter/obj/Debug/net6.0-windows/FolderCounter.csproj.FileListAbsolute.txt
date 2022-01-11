@@ -1,0 +1,17 @@
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\bin\Debug\net6.0-windows\FolderCounter.exe
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\bin\Debug\net6.0-windows\FolderCounter.deps.json
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\bin\Debug\net6.0-windows\FolderCounter.runtimeconfig.json
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\bin\Debug\net6.0-windows\FolderCounter.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\bin\Debug\net6.0-windows\ref\FolderCounter.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\bin\Debug\net6.0-windows\FolderCounter.pdb
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\FolderCounter.csproj.AssemblyReference.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\FolderCounter.Form1.resources
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\FolderCounter.csproj.GenerateResource.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\FolderCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\FolderCounter.AssemblyInfoInputs.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\FolderCounter.AssemblyInfo.cs
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\FolderCounter.csproj.CoreCompileInputs.cache
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\FolderCounter.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\ref\FolderCounter.dll
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\FolderCounter.pdb
+C:\Users\krolo\Documents\Git\Main\Dev\Cours C#\FolderCounter\obj\Debug\net6.0-windows\FolderCounter.genruntimeconfig.cache
