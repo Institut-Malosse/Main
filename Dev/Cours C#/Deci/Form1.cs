@@ -13,7 +13,7 @@ namespace Deci
             if (int.TryParse(nombreATester, out int value)) // Vérification de la valeur
             {
                 int nbPremier = Int32.Parse(nombreATester);
-                if (nbPremier <= 1) // S'il est premier
+                if (nbPremier <= 1) // S'il est positif et supérieur ou égal à 1
                 {
                     MessageBox.Show("Le nombre saisi n'est pas un nombre premier !"); // Affichage d'une erreur de saisie
                 }
